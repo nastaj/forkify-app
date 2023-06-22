@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastaj/forkify-app.git"
+  },
+  "author": "Jakub Nasta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nastaj/forkify-app/issues"
+  },
+  "homepage": "https://github.com/nastaj/forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.2",
+    "parcel": "^2.9.2",
+    "process": "^0.11.10",
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
